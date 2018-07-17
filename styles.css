@@ -1,0 +1,117 @@
+p {
+    font-family: cursive;
+}
+
+body {
+    background-color: lightyellow;
+}
+
+header {
+    background-color: mediumorchid;
+    margin-bottom: 30px;
+    box-shadow: 10px 10px 5px #888888;
+    padding-bottom:  30px;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    background-color: ghostwhite;
+}
+
+#logo {
+    margin-bottom: 20px;
+}
+
+.nav_menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav_menu li {
+    min-width: 8em;
+    float: left;
+    margin-right: o.5em;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.nav_menu li a:link,
+.nav_menu li a:visited {
+    background-color: aqua;
+    display: block;
+    padding: 0.2em;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 0 0.2em;
+    -webkit_border_radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px 3px rgba(43, 43, 77, 0.5); 
+}
+
+.nav_menu li a:hover {
+    background-color: chocolate;
+    -webkit-transform: scale(2,2);
+    -ms-transform: scale(2,2);
+    transform: scale(2,2);
+}
+
+.nav_menu a {
+    display: block;
+    width: 80px;
+}
+
+
+.clear {
+    clear: both;
+}
+
+#mainBody {
+    background-color: lightgray;
+}
+
+#welcomeDiv {
+    background-color: lightgoldenrodyellow;
+    float: left;
+    width: 70%;
+    margin-right: 20px;
+    padding: 15px;
+    margin-left: 10px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+#newsLetter {
+    background-color: lightgreen;
+    float: left;
+    padding: 15;
+    width: 20%;
+    margin-bottom: 30px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+#leftDiv {
+    background-color: lightgray;
+    box-shadow: 10px 10px 5px #888888;
+    float: left;
+    width: 43%;
+    padding: 10px;
+    margin: 20px;
+    height: auto;
+}
+
+#rightDiv {
+    background-color: lightgray;
+    float: right;
+    width: 43%;
+    height: auto;
+    padding: 10px;
+    margin: 20px;
+    background-color: black;
+    color: white;
+    box-shadow: 10px 10px 5px #888888;
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 15px;
+}
